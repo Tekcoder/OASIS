@@ -1163,28 +1163,6 @@ I highly recommend them."</p>
     <!--Custom JavaScript-->
 	<script src="js/custom.js"></script>
 
-    <script>
-        !function() {
-          var t;
-              return t = window.devs = window.dev = window.devs || [], t.init ? void 0 : t.invoked ? void (window.console && console.error && console.error("Purchase Button snippet included twice.")) : (t.invoked = !0, 
-              t.methods = [ "identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-              t.factory = function(e) {
-                return function() { var n; return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;}; }, t.methods.forEach(function(e) { t[e] = t.factory(e); }), t.load = function(t) {
-                var e, n, o, r; e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"),  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "http://devsolution.info/purchase-btn/" + r + "/" + t + ".js", n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-              });
-            }();
-
-         // Settings
-        dev.PURCHASE_ID     = '17695406'; // Product Id
-        dev.NAME            = "EDULEARN"; // Product Name
-        dev.STYLE           = 1; // 1 or 2
-        dev.WIDTH           = "270px";
-        dev.RIGHTMARGIN     = "100px";
-        dev.BOTTOMMARGIN    = "30px";
-        dev.BGCOLOR         = "90a94c"; // need to be HEX Color without dash
-        dev.load(dev.PURCHASE_ID);
-    </script>
-
   </body>
 
 </html>
