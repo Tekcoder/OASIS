@@ -2357,3 +2357,141 @@ ul.ct_course_list li span{
 .ct_course_meta.border{
 	border:0px;
 }
+
+/*Button*/
+.btn,
+.btn-submit {
+    color: #fff !important;
+    background: #72b6af;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    padding: 12px 21px;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+}
+.text-center .btn {
+    margin: 0 4px
+}
+.btn-large {
+    padding: 14px 23px 14px 23px
+}
+.btn.btn-aqua {
+    background: #28b8d8
+}
+.btn.btn-green {
+    background: #72b6af
+}
+.btn.btn-blue {
+    background: #549dc5
+}
+.btn.btn-rose {
+    background: #c67c88
+}
+.btn.btn-red {
+    background: #d82845
+}
+.btn.btn-orange {
+    background: #fdba12
+}
+.btn.btn-purple {
+    background: #9b59b6
+}
+.btn.btn-pink {
+    background: #d487be
+}
+.btn.btn-navy {
+    background: #4265ab
+}
+.btn.btn-gray {
+    background: #47474d
+}
+.btn.btn-white {
+    background: #FFF;
+    color: #3e3e3e !important;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  18. PRICING TABLE
+/*-----------------------------------------------------------------------------------*/
+.pricing {
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+    display: block;
+}
+.pricing ul {
+    padding: 0
+}
+.pricing .btn {
+    margin: 0
+}
+.pricing .plan {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.11);
+    background: #fff;
+}
+.pricing .plan h3 {
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 15px 0 0 0;
+    color: #3e3e3e;
+}
+.pricing .plan h4 {
+    padding: 0 0 25px 0;
+    margin: 0 25px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.pricing .plan h4 span {
+    color: #72b6af
+}
+.pricing .plan h4 .amount {
+    display: block;
+    text-align: center;
+}
+.pricing .plan h4 .amount {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.pricing .plan h4 .amount span {
+    vertical-align: super;
+    font-size: 20px;
+    font-weight: 400;
+}
+.pricing .plan ul {
+    margin: 15px 0 0 0;
+    padding: 0 25px;
+    list-style: none;
+}
+.pricing .plan ul li {
+    padding: 5px 0
+}
+.pricing .plan ul li:last-child {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+}
+.pricing .plan h3 {
+    text-transform: uppercase
+}
+.pricing .select {
+    padding: 27px 0
+}
+
+.icon-out h1 {
+    padding: 0;
+    float: left;
+    margin-top: 34px;
+}
